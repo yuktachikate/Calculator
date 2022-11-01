@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+</head>
+<nav class="navbar">
+    <p class = "item">Hello </p><span id="name"></div>
+</nav>
+<body>
+    <div class="container">        
+        <div class="wrapper">
+            <h2>Calculator</h2>
+            <div class="form-group">
+                <label for="">Result </label>
+                <input type="number" class="form-control" id="result" readonly>
+                <p id="numcheck"></p>
+            </div>
+            <div class="operands">
+                <div class="form-group">
+                    <label for="">Num 1 </label>
+                    <input type="text" class="form-control" id="num1">
+                    <p id="num1check"></p>
+                </div>
+                <div class="form-group">
+                    <label for="">Num 2</label>
+                    <input type="text" class="form-control" id="num2">
+                    <p id="num2check"></p>
+                </div>
+            </div>
+            
+
+            <div class="buttons">
+                <button id="btn_add">Add</button>
+                <button id="btn_subtract">Subtract</button>
+                <button id="btn_multiply">Multiply</button>
+                <button id="btn_divide">Divide</button>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <script src="./script_calculator.js"></script>
+
+</body>
+</html>
